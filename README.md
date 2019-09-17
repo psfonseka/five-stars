@@ -1,37 +1,4 @@
-# empty-project
+# Five Star Rating Components with React and CSS
 
-Empty project.
+Displays examples of how to make a common five star rating component, whether for displaying non-integer ratings or making one that is dynamic/interactive.
 
-## Building and running on localhost
-
-First install dependencies:
-
-```sh
-npm install
-```
-
-To run in hot module reloading mode:
-
-```sh
-npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
