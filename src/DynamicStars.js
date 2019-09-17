@@ -48,7 +48,7 @@ constructor(props) {
   render() {
     return (
     <div>
-      <h1>Rate out of 5 Stars Change?</h1>
+      <h1>Rate out of 5 Stars</h1>
       {this.state.starsArr.map((item, i) => {
           return (
               <div className="single-star-container" value={i} key={i} onMouseOver={this.handleStarsHover} onClick={this.handleStarsClick} onMouseLeave={this.handleStarsLeave}>
