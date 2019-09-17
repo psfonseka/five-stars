@@ -52,7 +52,7 @@ constructor(props) {
       {this.state.starsArr.map((item, i) => {
           return (
               <div className="single-star-container" value={i} key={i} onMouseOver={this.handleStarsHover} onClick={this.handleStarsClick} onMouseLeave={this.handleStarsLeave}>
-                  <div className="single-star-fill" style={{"width" : `${parseInt(item*31)}px`}}>
+                  <div className="single-star-fill" style={{"width":`${parseInt(item*31)}px`}}>
                       <img className="single-star-outline" src="star.png" value={i} ></img>
                   </div>
               </div>
